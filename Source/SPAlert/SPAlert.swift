@@ -1,5 +1,5 @@
 // The MIT License (MIT)
-// Copyright © 2019 Ivan Vorobei (ivanvorobei@icloud.com)
+// Copyright © 2019 Ivan Varabei (varabeis@icloud.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@ public enum SPAlert {
      
      - parameter title: Main text in alert.
      - parameter message: Subtitle in alert. Optional.
-     - parameter preset: Default configure layout and icons.
+     - parameter preset: Сonfigureв preset with layout and icons.
      */
     public static func present(title: String, message: String? = nil, preset: SPAlertPreset) {
         let alertView = SPAlertView(title: title, message: message, preset: preset)
@@ -43,7 +43,7 @@ public enum SPAlert {
      
      - parameter title: Main text in alert.
      - parameter message: Subtitle in alert. Optional.
-     - parameter image: Custom `UIImage` for alert.
+     - parameter image: Custom `UIImage` for alert. No need recize it before.
      */
     public static func present(title: String, message: String? = nil, image: UIImage) {
         let alertView = SPAlertView(title: title, message: message, image: image)
